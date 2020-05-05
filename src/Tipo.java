@@ -14,7 +14,7 @@ public class Tipo {
 }
 interface Categoria{String clasificacion();List<String> listado();}
 class ParteSuperior implements Categoria {
-    List<String> listado = List.of("remera","buzo","campera");
+    List<String> listado = List.of("remera","buzo","campera","chomba","camisa");
     public String clasificacion(){
         return "Parte Superior";
     }
@@ -32,7 +32,7 @@ class ParteInferior implements Categoria {
     }
 }
 class Calzado implements Categoria {
-    List<String> listado = List.of("zapatillas","ojotas","crocs");
+    List<String> listado = List.of("zapatillas","ojotas","crocs","zapatos");
     public String clasificacion(){
         return "Calzado";
     }
